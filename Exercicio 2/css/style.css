@@ -1,0 +1,45 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin: 20px;   
+}
+
+button, input {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    color: tomato
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    border: 1px solid #FFFFFF;
+    padding: 50px;
+    border-radius: 14px;
+    box-shadow: 15px 15px 20px -12px rgba(255, 99, 71, 0.719);
+}
+
+.botao:hover {
+    background-color: tomato;
+    transform: scaleX(1.05);
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+}
