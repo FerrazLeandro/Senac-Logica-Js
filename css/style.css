@@ -7,8 +7,8 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    margin: 20px;  
+    justify-content: center;
+    margin: 20px;
     flex-wrap: wrap;
 }
 
@@ -26,7 +26,8 @@ a {
 
 }
 
-button {
+button,
+input {
     background-color: transparent;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -35,7 +36,8 @@ button {
     margin: 10px;
 }
 
-h3 {
+h3,
+h1 {
     color: tomato;
     margin: 0;
 }
@@ -55,10 +57,24 @@ p {
     box-shadow: 15px 15px 20px -12px rgba(255, 99, 71, 0.719);
 }
 
-.botao:hover, a:hover {
+.botao:hover,
+a:hover {
     background-color: tomato;
     transform: scaleX(1.05);
     transition: 1s;
     cursor: pointer;
     border: none;
+}
+
+.voltar {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: tomato;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 1000;
 }
