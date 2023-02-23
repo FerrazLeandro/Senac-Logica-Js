@@ -47,6 +47,8 @@ function calcularNota() {
         resultado = "Aluno reprovado!"
     else if (nota >= 4 && nota < 7) {
         resultado = "Aluno em recuperação!"
+        var div = document.querySelector("#divrecuperacao");
+        div.style.display = "block";
     } else
         resultado = "Aluno aprovado!"
 
@@ -63,5 +65,5 @@ function recuperarNota() {
     else
         document.getElementById("resultadoRecuperacao").innerHTML = "Reprovado na recuperação";
 
- 
+
 }

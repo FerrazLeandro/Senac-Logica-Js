@@ -78,3 +78,7 @@ a:hover {
     text-align: center;
     z-index: 1000;
 }
+
+#divrecuperacao {
+    display: none;
+}

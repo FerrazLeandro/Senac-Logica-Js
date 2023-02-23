@@ -66,3 +66,49 @@ function calcularConceito(conceito) {
 
     document.getElementById("resultadoConceito").innerHTML = resultado;
 }
+
+function calcularRegressiva() {  
+    let i = 10; 
+    let resultado = document.getElementById("resultadoRegressiva")
+
+    while (i >= 0) {
+        resultado.innerHTML += "<br />" + i + "<br />";
+        i--
+    }
+}
+
+function calcularTabuada() {  
+    const numero = 5
+    let i = 0;
+    let calculo;
+    let resultado = document.getElementById("resultadoTabuada")
+
+    while (i <= 10) {
+        calculo = i * numero
+        resultado.innerHTML += "<br />" + numero + " * " + i + " = " + calculo + "<br />";
+        i++
+    }
+}
+
+function calcularRegressivaX() {  
+    let i = Number(document.getElementById("numeroX").value); 
+    let resultado = document.getElementById("resultadoRegressivaX")
+
+    while (i >= 0) {
+        resultado.innerHTML += "<br />" + i + "<br />";
+        i--
+    }
+}
+
+function calcularTabuadaX() {  
+    const numero = Number(document.getElementById("numeroTabuadaX").value); 
+    let i = 0;
+    let calculo;
+    let resultado = document.getElementById("resultadoTabuadaX")
+
+    while (i <= 10) {
+        calculo = i * numero
+        resultado.innerHTML += "<br />" + numero + " * " + i + " = " + calculo + "<br />";
+        i++
+    }
+}

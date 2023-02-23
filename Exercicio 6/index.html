@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Switch </title>
+    <title>Switch e while 🔁</title>
 </head>
 <body>
     <div class="container">
@@ -24,6 +24,33 @@
         <h3 id="resultadoConceito"></h3>
     </div>
 
+    <div class="container">
+        <h3>Contagem regressiva 🔢</h3>
+        <input type="button" class="botao" onclick="calcularRegressiva()" value="Calcular">
+        <h3 id="resultadoRegressiva"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Tabuada de 5 🧮</h3>
+        <input type="button" class="botao" onclick="calcularTabuada()" value="Calcular">
+        <h3 id="resultadoTabuada"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Contagem regressiva de X 🔢</h3>
+        <label for="numeroX">Número: </label>
+        <input type="number" id="numeroX" name="numeroX" placeholder="Informe um número">
+        <input type="button" class="botao" onclick="calcularRegressivaX()" value="Calcular">
+        <h3 id="resultadoRegressivaX"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Tabuada de X 🧮</h3>
+        <label for="numeroTabuadaX">Número: </label>
+        <input type="number" id="numeroTabuadaX" name="numeroTabuadaX" placeholder="Informe um número">
+        <input type="button" class="botao" onclick="calcularTabuadaX()" value="Calcular">
+        <h3 id="resultadoTabuadaX"></h3>
+    </div>
 
     <a href="../index.html" class="voltar">🏠</a>
 
