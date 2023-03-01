@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Array de dois números 🗃️</h3>
+        <label for="arrayDoisNumeros1">Número 1: </label>
+        <input type="number" id="arrayDoisNumeros1" name="arrayDoisNumeros1" placeholder="Informe o primeiro número">
+        <label for="numero2">Número 2: </label>
+        <input type="number" id="arrayDoisNumeros2" name="arrayDoisNumeros2" placeholder="Informe o segundo número">
+        <input type="button" class="botao" onclick="calcularArrayDoisNumeros()" value="Calcular">
+        <h3 id="resultadoArrayDoisNumeros"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Array de três números crescente 📫</h3>
+        <label for="arrayTresNumerosCrescente1">Número 1: </label>
+        <input type="number" id="arrayTresNumerosCrescente1" name="arrayTresNumerosCrescente1" placeholder="Informe o primeiro número">
+        <label for="arrayTresNumerosCrescente2">Número 2: </label>
+        <input type="number" id="arrayTresNumerosCrescente2" name="arrayTresNumerosCrescente2" placeholder="Informe o segundo número">
+        <label for="arrayTresNumerosCrescente3">Número 3: </label>
+        <input type="number" id="arrayTresNumerosCrescente3" name="arrayTresNumerosCrescente3" placeholder="Informe o terceiro número">
+        <input type="button" class="botao" onclick="calcularArrayTresNumerosCrescente()" value="Calcular">
+        <h3 id="resultadoArrayTresNumerosCrescente"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Array de três números decrescente 📫</h3>
+        <label for="arrayTresNumerosDecrescente1">Número 1: </label>
+        <input type="number" id="arrayTresNumerosDecrescente1" name="arrayTresNumerosDecrescente1" placeholder="Informe o primeiro número">
+        <label for="arrayTresNumerosDecrescente2">Número 2: </label>
+        <input type="number" id="arrayTresNumerosDecrescente2" name="arrayTresNumerosDecrescente2" placeholder="Informe o segundo número">
+        <label for="arrayTresNumerosDecrescente3">Número 3: </label>
+        <input type="number" id="arrayTresNumerosDecrescente3" name="arrayTresNumerosDecrescente3" placeholder="Informe o terceiro número">
+        <input type="button" class="botao" onclick="calcularArrayTresNumerosDecrescente()" value="Calcular">
+        <h3 id="resultadoArrayTresNumerosDecrescente"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Array de N números decrescente 📫</h3>
+        <label for="arrayNumerosN">Quantos números deseja informar: </label>
+        <input type="number" id="arrayNumerosN" name="arrayTresNumerosDecrescente1" placeholder="Informe a quantidade de números">
+        <input type="button" class="botao" onclick="calcularArrayNumerosN()" value="Calcular">
+        <div id="resultadoArrayNumerosN"></div>
+
+    </div>
+
+    <a href="../index.html" class="voltar">🏠</a>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

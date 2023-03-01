@@ -23,7 +23,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.link {
+    margin-bottom: 10px;
+    width: 200px;
 }
 
 button,
@@ -36,7 +40,6 @@ input {
     margin: 10px;
 }
 
-h3,
 h3 {
     color: tomato;
     margin: 0;
