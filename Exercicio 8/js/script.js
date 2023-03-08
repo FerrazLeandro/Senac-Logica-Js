@@ -144,3 +144,4 @@ function calcularParOuImpar() {
 
     document.getElementById("resultadoParOuImpar").innerHTML = "Total de pares: " + pares + ", total de ímpares " + impares;
 }
+

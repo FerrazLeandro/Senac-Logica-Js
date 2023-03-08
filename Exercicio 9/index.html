@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Matriz ⏹️⏹️</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Exibir matriz 4 X 3 ⬆️</h3>
+        <input type="button" class="botao" onclick="matrizQuatroTres()" value="Calcular">
+        <h3 id="resultadoMatrizQuatroTres"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Exibir linha matriz 3 X 3 ⬆🚡</h3>
+        <label for="matrizLinha">Linha: </label>
+        <input type="number" id="matrizLinha" name="matrizLinha" placeholder="Informe uma linha">
+        <input type="button" class="botao" onclick="matrizLinha()" value="Calcular">
+        <h3 id="resultadoMatrizLinha"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Somar linhas e colunas da matriz ➕</h3>
+        <label for="somaMatriz1">Linha 1: </label>
+        <input type="text" id="matrizLinha1" name="matrizLinha1" placeholder="Informe 4 numeros">
+        <label for="somaMatriz2">Linha 2: </label>
+        <input type="text" id="matrizLinha2" name="matrizLinha2" placeholder="Informe 4 numeros">
+        <label for="somaMatriz3">Linha 3: </label>
+        <input type="text" id="matrizLinha3" name="matrizLinha3" placeholder="Informe 4 numeros">
+        <label for="somaMatriz4">Linha 4: </label>
+        <input type="text" id="matrizLinha4" name="matrizLinha4" placeholder="Informe 4 numeros">
+        <input type="button" class="botao" onclick="somaMatriz()" value="Calcular">
+        <h3 id="resultadoSomaMatriz0"></h3>
+        <h3 id="resultadoSomaMatriz1"></h3>
+        <h3 id="resultadoSomaMatriz2"></h3>
+        <h3 id="resultadoSomaMatriz3"></h3>
+    </div>
+
+    <a href="../index.html" class="voltar">🏠</a>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
