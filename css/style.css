@@ -86,3 +86,8 @@ a:hover {
 #divrecuperacao {
     display: none;
 }
+
+#resultadoAtributo {
+    display: flex;
+    flex-direction: column;
+}

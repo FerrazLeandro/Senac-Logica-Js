@@ -18,8 +18,42 @@
         <input type="text" id="nome" name="nome" placeholder="Informe o nome">
         <label for="telefone">Telefone: </label>
         <input type="tel" id="telefone" name="telefone" placeholder="Informe o telefone">
+        <div id="resultadoAtributo"></div>
         <input type="button" class="botao" onclick="criarAluno()" value="Criar">
         <h3 id="resultado"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Adicionar atributo ➕</h3>
+        <label for="nomeAtributo">Nome do atributo: </label>
+        <input type="text" id="nomeAtributo" name="nomeAtributo" placeholder="Informe o nome do atributo">
+        <input type="button" class="botao" onclick="criarAtributo()" value="Criar">
+    </div>
+
+    <div class="container">
+        <h3>Exibir nomes 🧑‍🦱</h3>
+        <input type="button" class="botao" onclick="exibirNomes()" value="Exibir">
+        <h3 id="nomeAlunos"></h3>
+    </div>
+
+    <div class="container">
+        <h3>Cadastro de funcionarios 🧑‍🎓</h3>
+        <label for="nomeFuncionario">Nome: </label>
+        <input type="text" id="nomeFuncionario" name="nomeFuncionario" placeholder="Informe o nome">
+        <label for="funcaoFuncionario">Função: </label>
+        <input type="text" id="funcaoFuncionario" name="funcaoFuncionario" placeholder="Informe a função">
+        <label for="salarioFuncionario">Salário: </label>
+        <input type="number" id="salarioFuncionario" name="salarioFuncionario" placeholder="Informe o salário">
+        <input type="button" class="botao" onclick="cadastrarFuncionario()" value="Cadastrar">
+    </div>
+
+    <div class="container">
+        <h3>Relatório de funcionarios 🧑‍🎓</h3>
+        <input type="button" class="botao" onclick="nomeFuncao()" value="Nome e Função">
+        <input type="button" class="botao" onclick="nomeSalario()" value="Nome e Salário">
+        <input type="button" class="botao" onclick="custoTotal()" value="Total de Salário">
+        <input type="button" class="botao" onclick="gerentes()" value="Gerentes">
+        <h3 id="nomeFuncao"></h3>
     </div>
 
     <a href="../index.html" class="voltar">🏠</a>
